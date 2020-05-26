@@ -1,4 +1,4 @@
-#Obtained from https://www.kaggle.com/emmarex/plant-disease-detection-using-keras
+#Obtained from https://towardsdatascience.com/plant-ai-plant-disease-detection-using-convolutional-neural-network-9b58a96f2289
 #Classifying disease from images of leaves using the PlantVillage dataset with a custom channels_first
 #Importing required libraries
 import numpy as np
@@ -31,7 +31,7 @@ directory_root = Path("C:/Users/erici/Desktop/pvillage")
 width=256
 height=256
 depth=3
-#converts images to an array
+#Converts images to an array
 def convert_image_to_array(image_dir):
     try:
         image = cv2.imread(image_dir)
@@ -154,7 +154,6 @@ plt.plot(epochs, acc, 'b', label='Train accurarcy')
 plt.plot(epochs, val_acc, 'r', label='Val accurarcy')
 plt.title('Training and Validation accurarcy')
 plt.legend()
-
 plt.figure()
 #Train and validation loss
 plt.plot(epochs, loss, 'b', label='Train loss')
