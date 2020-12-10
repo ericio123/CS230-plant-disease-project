@@ -1,4 +1,3 @@
-#Data loading, preprocessing, training obtained from https://www.kaggle.com/emmarex/plant-disease-detection-using-keras
 #Classifies disease from images of plant leaves using the PlantVillage dataset with a custom CNN architecture
 
 #Importing libraries
