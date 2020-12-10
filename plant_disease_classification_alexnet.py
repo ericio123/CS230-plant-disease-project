@@ -1,4 +1,3 @@
-#Architecture, preprocessing, training obtained from https://www.kaggle.com/vipoooool/plant-diseases-classification-using-alexnet/data
 #Classifies disease from images of plant leaves using the PlantVillage dataset and transfer learning from AlexNet
 
 import os
